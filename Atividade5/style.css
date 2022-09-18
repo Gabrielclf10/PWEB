@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    object-fit: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    display: flex; 
+    height: fit-content;
+}
+.Header{
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 200px;
+    text-align: left;
+    color: aliceblue;
+    background-color: rgb(74, 49, 141);
+}
+
+.Header h1{
+    font-size: 40px;
+    padding: 10px;
+    margin-right: 300px;
+}
+span, u{
+    color: rgb(255, 238, 0);
+}
+
+.Header input{
+    font-size: 16px;
+    margin: 5px;
+    margin-left: 100px;
+    margin-top: 18px;
+    border-radius: 15px;
+    border-style: none;
+    width: 600px;
+    height: 28px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 200px;
+    text-align: left;
+    color: aliceblue;
+    background-color: rgb(35, 15, 88);
+}
+.menu div{
+    padding: 5px 5% 5px 5%;
+    font-size: medium;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.menu div:hover{
+    background-color: aliceblue;
+    color: rgb(74, 49, 141);
+}
+
+.side-bar{
+    padding-top: 10px;
+    padding-left: 0px;
+    width: 20%;
+    max-width: 200px;
+    min-width: 150px;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    font-weight: bold;
+    font-size: large;
+}
+.nav{
+    color: rgb(22, 22, 22);
+    margin: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    padding: 10px;
+    width: calc((100%/1) - (var(--margin)* 5));
+    transition: 0.25s;
+}
+.nav:hover{
+    background-color: rgb(74, 49, 141);
+    color: aliceblue;
+}
+
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 10px;
+    text-align: justify;
+    height:fit-content;
+}
+
+.container h2{
+    color: rgb(110, 0, 101);
+    margin: 5px 0px 10px;
+}
+
+.a {
+    max-width: 42.25vw;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    border: 1px solid #dddddd;
+    transition: 0.25s;
+}
+.a:hover, .b:hover{
+    background-color: rgb(236, 213, 255);;
+}
+.a img{
+    width:100%;
+    max-height: 400px;
+}
+
+.b {
+    width: calc((100%/4.5));
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    border: 1px solid #dddddd;
+    transition: 1s;
+}
+
+.b img{
+    width: 100%;
+    max-height: 200px;
+}
+
+footer{
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    padding: 50px;
+    text-align: right;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
