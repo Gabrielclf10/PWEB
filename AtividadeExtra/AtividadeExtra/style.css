@@ -1,0 +1,94 @@
+body {
+    font-size: 400%;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.var{
+    height: 5em;
+    margin-top: 2em;
+    color: grey;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 8px 8px -4px rgb(201, 201, 201);
+    border-width: 20px;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.var, p{
+    text-align: center;
+}
+
+@media screen and (max-width: 1920px) {
+	
+	.var{
+        color: orangered;
+        background-color: yellow;
+    }
+    .var::after{
+        content: '1920px';
+    }
+}
+
+@media screen and (max-width: 1366px) {
+
+	.var{
+        color: pink;
+        background-color: purple;
+    }
+    .var::after{
+        content: '1366px';
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+
+	.var{
+        color: white;
+        background-color: red;
+    }
+    .var::after{
+        content: '1080px';
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+	.var{
+        color: aqua;
+        background-color: magenta;
+    }
+    .var::after{
+        content: '1024px';
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.var{
+        color: yellow;
+        background-color: orange;
+    }
+    .var::after{
+        content: '768px';
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+	.var{
+        color: black;
+        background-color: gray;
+    }
+    .var::after{
+        content: '402px';
+    }
+
+}
