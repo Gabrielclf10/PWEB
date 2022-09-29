@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media</title>
+</head>
+<body>
+        <Script>
+            var nota1,nota2,nota3;
+            nota1 = prompt("Insira a nota 1");
+            nota2 = prompt("Insira a nota 2");
+            nota3 = prompt("Insira a nota 3");
+            
+            function CalcMedia(nota1,nota2,nota3){
+
+                return (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3)) / 3
+            }
+
+            alert("Sua média é: "+CalcMedia(nota1,nota2,nota3).toFixed(2))
+
+        </Script>
+</body>
+</html>
